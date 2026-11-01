@@ -1,1 +1,1 @@
-print("Hello world, from server!")
+print("¡Hola desde VS Code en Arch Linux!")
