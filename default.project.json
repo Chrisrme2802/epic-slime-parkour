@@ -2,7 +2,6 @@
   "name": "epic-slime-parkour",
   "tree": {
     "$className": "DataModel",
-
     "ReplicatedStorage": {
       "$path": "Game/ReplicatedStorage"
     },
@@ -10,11 +9,12 @@
       "$path": "Game/ServerScriptService"
     },
     "StarterPlayer": {
+      "$className": "StarterPlayer",
       "StarterPlayerScripts": {
-        "$path": "Game/StarterPlayerScripts"
+        "$path": "Game/StarterPlayer/StarterPlayerScripts"
       },
       "StarterCharacterScripts": {
-        "$path": "Game/StarterCharacterScripts"
+        "$path": "Game/StarterPlayer/StarterCharacterScripts"
       }
     }
   }
